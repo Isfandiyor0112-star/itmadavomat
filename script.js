@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const password = document.getElementById('password').value;
 
       try {
-        const res = await fetch('itmadavomatsrv.vercel.app/api/login', {
+        const res = await fetch('https://itmadavomatsrv.vercel.app/api/login', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ login, password })
@@ -81,4 +81,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
+
 
