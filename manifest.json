@@ -1,6 +1,6 @@
 {
-  "name": "ITMA Davomat",
-  "short_name": "ITMA Davomat",
+  "name": "Angren IM Davomat",
+  "short_name": "Angren IM Davomat",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -18,3 +18,4 @@
     }
   ]
 }
+
